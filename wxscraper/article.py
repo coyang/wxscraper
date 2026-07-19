@@ -12,7 +12,7 @@ from typing import List, Optional
 
 from bs4 import BeautifulSoup
 
-from .fetcher import Fetcher
+from .fetcher import Fetcher, FetchError
 from .utils import html_unescape, strip_js_string, ts_to_str
 
 log = logging.getLogger("wxscraper.article")
