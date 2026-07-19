@@ -1,0 +1,26 @@
+# Scraped output (copyrighted content, never commit)
+output/
+
+# Local credentials / config
+config.json
+*.cookie
+cookies.txt
+.cookie*
+
+# Checkpoints / cache
+.checkpoint.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
